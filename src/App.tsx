@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import Contacts from './pages/Contacts';
 
+
 const App = () => {
   return (
     <>
