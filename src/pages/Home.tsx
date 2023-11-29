@@ -1,10 +1,11 @@
 import React from 'react';
 import Toolbar from '../components/Toolbar';
+import Footer from '../components/Footer';
 
 const Home: React.FC = () => {
   return (
     <div className="container mt-5">
-      <Toolbar aboutUsLink="/aboutUs" contactsLink="/contacts"/>
+      <Toolbar aboutUsLink="/aboutUs" contactsLink="/contacts" />
       <h2 className="text-center text-primary mt-4">Добро пожаловать в историю создания JS</h2>
       <p className="text-center text-muted lead mt-2">Изучите и узнайте больше о методах программирования</p>
 
@@ -13,7 +14,7 @@ const Home: React.FC = () => {
         <p>
           JavaScript (/ˈdʒɑːvɑːˌskrɪpt/; аббр. JS /ˈdʒeɪ.ɛs./) — мультипарадигменный язык программирования.
           Поддерживает объектно-ориентированный, императивный и функциональный стили.
-          Является реализацией спецификации ECMAScript (стандарт ECMA-262[8]).
+          Является реализацией спецификации ECMAScript (стандарт ECMA-262).
         </p>
 
         <p>
@@ -56,6 +57,7 @@ const Home: React.FC = () => {
           значимость языка.
         </p>
       </div>
+      <Footer/>
     </div>
   );
 };
